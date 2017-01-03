@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:text="@string/title_converter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ActionTitleConverter"
+        android:textSize="24sp"
+        style="@style/Base.DialogWindowTitle.AppCompat"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:text="@string/task_referense"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/ReferenseOfConverter"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="87dp"
+        android:gravity="center_horizontal"
+        android:id="@+id/groupChoice">
+
+        <RadioButton
+            android:text="@string/parrots_choice"
+            android:layout_width="wrap_content"
+            android:layout_height="49dp"
+            android:id="@+id/parrots_choice" />
+
+        <RadioButton
+            android:text="@string/choice_meters"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/meters_choice"
+            android:layout_marginRight="6dp" />
+
+    </RadioGroup>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="53dp">
+
+        <TextView
+            android:text="@string/result_title"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:id="@+id/results"
+            style="@android:style/TextAppearance.DeviceDefault.DialogWindowTitle"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp" />
+
+        <TextView
+            android:text="@string/converter_results"
+            android:layout_width="267dp"
+            android:layout_height="match_parent"
+            android:id="@+id/result_section"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="12dp"
+            android:textStyle="normal|bold"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <Button
+        android:text="@string/back_home_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/back_home"
+        android:onClick="onBackClick" />
+
+</LinearLayout>

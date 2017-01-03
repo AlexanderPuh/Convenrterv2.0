@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/item_title"
+        android:id="@+id/menu_item" />
+    <item android:title="@string/home_page"
+        android:id="@+id/menu_home" />
+    <item android:title="@string/converter_menu"
+        android:id="@+id/item_converter" />
+</menu>

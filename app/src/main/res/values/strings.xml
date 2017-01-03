@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Convenrter v2.0</string>
+    <string name="task">Введите кол-во попугаев, при условии, что их должно быть больше 0 и меньше 100</string>
+    <string name="send_data">Отправить</string>
+    <string name="action_reference">Справка</string>
+    <string name="item_title">Справка</string>
+    <string name="referense_msg">Справка</string>
+    <string name="referense_text">Данное приложение не имеет никакой пользы, все данные сфальсифицированные. Оно полезно только для разробчика, чтобы практиковать его навыки в андроид разработке</string>
+    <string name="home_page">Главная</string>
+    <string name="title_converter">Конвертер</string>
+    <string name="parrots_choice">В попугаях</string>
+    <string name="choice_meters">В метрах</string>
+    <string name="task_referense">Выберите одну из конвертируемых величин, чтобы получить желаемый результат конвертируемой величины</string>
+    <string name="result_title">Результат:</string>
+    <string name="converter_results">Выберите один из вариантов конвертирования</string>
+    <string name="converter_menu">Конвертер</string>
+    <string name="error_value_parrots">Проверте вводимое число. Оно выходит за границы требуемого</string>
+    <string name="back_home_button">Назад</string>
+    <string name="clickBack">onBackClick</string>
+    <string name="current_ressult">Текушее количество попугаев:</string>
+
+</resources>
